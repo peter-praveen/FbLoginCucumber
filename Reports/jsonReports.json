@@ -1,0 +1,105 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2906000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch chrome browser",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 841000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to Facebook URL",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.navigate_to_facebook_url()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify the login page",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.verify_the_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-04-18T05:45:09.677Z",
+        "line": 8,
+        "name": "Login test",
+        "description": "",
+        "id": "facebook-login-feature;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 106000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Enter username and password",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.enter_username_and_password()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 130000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Login button",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.click_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5797000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify the HomePage",
+            "match": {
+              "location": "com.straive.stepdefinition.StepDefinition.verify_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Login Feature",
+    "description": "",
+    "id": "facebook-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
